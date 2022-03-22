@@ -1,0 +1,651 @@
+{
+  "SYS_LumpInv_Sector": {
+    "aggregation": "sum",
+    "defaultUnit": "MEUR",
+    "keepDimensions": "Processset"
+  },
+  "TRA-Land_LumpInv": {
+    "aggregation": "sum",
+    "defaultUnit": "MEUR",
+    "keepDimensions": "Processset"
+  },
+  "AGR_EMI": {
+    "aggregation": "sum",
+    "defaultUnit": "kt",
+    "keepDimensions": "Commodity"
+  },
+  "AGR_FEC": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "AGR_FuelPrice": {
+    "aggregation": "mean",
+    "defaultUnit": "MEUR/PJ",
+    "keepDimensions": "Commodity"
+  },
+  "AGR_NRG-BIO-PRIME": {
+    "aggregation": null,
+    "defaultUnit": null,
+    "keepDimensions": null
+  },
+  "AGR_NRG-BIO-PRIME_SEAI": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodityset"
+  },
+  "Check_Dummy": {
+    "defaultUnit": null,
+    "keepDimensions": null
+  },
+  "IND-CAF_FEC": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "IND-CON_FEC": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "IND-EOE_FEC": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "IND-FAB_FEC": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "IND-MAE_FEC": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "IND-MAP_FEC": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "IND-NEM_FEC": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "IND-OMA_FEC": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "IND-ONM_FEC": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "IND-PX4_FEC": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "IND-RAP_FEC": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "IND-TAP_FEC": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "IND-TEM_FEC": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "IND-WAP_FEC": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "IND_EMI": {
+    "aggregation": "sum",
+    "defaultUnit": "kt",
+    "keepDimensions": "Commodity"
+  },
+  "IND_Emissions-CO2": {
+    "aggregation": "sum",
+    "defaultUnit": "kt",
+    "keepDimensions": "Processset"
+  },
+  "IND_FEC": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "IND_FuelPrice": {
+    "aggregation": "mean",
+    "defaultUnit": "MEUR/PJ",
+    "keepDimensions": "Commodity"
+  },
+  "PWR_Cap": {
+    "aggregation": "sum",
+    "defaultUnit": "GW",
+    "keepDimensions": "Processset"
+  },
+  "PWR_Cap-N": {
+    "aggregation": "sum",
+    "defaultUnit": "GW",
+    "keepDimensions": "Processset"
+  },
+  "PWR_Emissions-CO2": {
+    "aggregation": "sum",
+    "defaultUnit": "kt",
+    "keepDimensions": "Processset"
+  },
+  "PWR_FuelPrice": {
+    "aggregation": "mean",
+    "defaultUnit": "MEUR/PJ",
+    "keepDimensions": "Commodity"
+  },
+  "PWR_Gen-ELCC": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Processset"
+  },
+  "PWR_Gen-HETC": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Processset"
+  },
+  "RSD_BLD-N_TYPE": {
+    "aggregation": "sum",
+    "defaultUnit": "kDwellings",
+    "keepDimensions": "Processset"
+  },
+  "RSD_BLD_TYPE": {
+    "aggregation": "sum",
+    "defaultUnit": "kUnits",
+    "keepDimensions": "Processset"
+  },
+  "RSD_CK_TYPE": {
+    "aggregation": "sum",
+    "defaultUnit": "kUnits",
+    "keepDimensions": "Process"
+  },
+  "RSD_Demands": {
+    "aggregation": null,
+    "defaultUnit": null,
+    "keepDimensions": null
+  },
+  "RSD_EMI": {
+    "aggregation": "sum",
+    "defaultUnit": "kt",
+    "keepDimensions": "Commodity"
+  },
+  "RSD_FEC": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "RSD_FuelPrice": {
+    "aggregation": "mean",
+    "defaultUnit": "MEUR/PJ",
+    "keepDimensions": "Commodity"
+  },
+  "RSD_OtherServices_FuelCons": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "RSD_RTFT-APT_NCAP": {
+    "aggregation": "sum",
+    "defaultUnit": "kUnits",
+    "keepDimensions": "Process"
+  },
+  "RSD_RTFT-ATT_NCAP": {
+    "aggregation": "sum",
+    "defaultUnit": "kUnits",
+    "keepDimensions": "Process"
+  },
+  "RSD_RTFT-DET_NCAP": {
+    "aggregation": "sum",
+    "defaultUnit": "kUnits",
+    "keepDimensions": "Process"
+  },
+  "RSD_RTFT_NRG_SAVINGS": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "RSD_SankeyFlow": {
+    "defaultUnit": null,
+    "keepDimensions": null
+  },
+  "RSD_Services_CO2Emissions": {
+    "aggregation": "sum",
+    "defaultUnit": "kt",
+    "keepDimensions": "Processset"
+  },
+  "RSD_Services_EnergyCons": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Processset"
+  },
+  "RSD_WS-APT_FuelCons": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "RSD_WS-APT_NCAP": {
+    "aggregation": "sum",
+    "defaultUnit": "kUnits",
+    "keepDimensions": "Process"
+  },
+  "RSD_WS-ATT_FuelCons": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "RSD_WS-ATT_NCAP": {
+    "aggregation": "sum",
+    "defaultUnit": "kUnits",
+    "keepDimensions": "Process"
+  },
+  "RSD_WS-DET_FuelCons": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "RSD_WS-DET_NCAP": {
+    "aggregation": "sum",
+    "defaultUnit": "kUnits",
+    "keepDimensions": "Process"
+  },
+  "RSD_WaterSpace_FuelCons": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "Residential Services": {
+    "defaultUnit": null,
+    "keepDimensions": null
+  },
+  "SRV-COM_FEC_WS": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "SRV-DCs_EH": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "SRV-DCs_EH_DH-Grid": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "SRV-PUB_FEC_WS": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "SRV_EMI": {
+    "aggregation": "sum",
+    "defaultUnit": "kt",
+    "keepDimensions": "Commodity"
+  },
+  "SRV_FEC": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "SRV_FEC_COK": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "SRV_FEC_DCs": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "SRV_FEC_Service": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Processset"
+  },
+  "SRV_FuelPrice": {
+    "aggregation": "mean",
+    "defaultUnit": "MEUR/PJ",
+    "keepDimensions": "Commodity"
+  },
+  "SUP_BIODST": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Process"
+  },
+  "SUP_BIOETH": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Process"
+  },
+  "SUP_BIOGAS": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Process"
+  },
+  "SUP_HYDROGEN": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Process"
+  },
+  "SYS_CO2Price": {
+    "aggregation": "mean",
+    "defaultUnit": "MEUR/kt",
+    "keepDimensions": "Commodityset",
+    "reverseSign": true
+  },
+  "SYS_Cost_Type": {
+    "aggregation": "sum",
+    "defaultUnit": "MEUR",
+    "keepDimensions": "Userconstraint"
+  },
+  "SYS_Cost_Sector": {
+    "aggregation": "sum",
+    "defaultUnit": "MEUR",
+    "keepDimensions": "Processset"
+  },
+  "SYS_DACS": {
+    "aggregation": "sum",
+    "defaultUnit": "kt",
+    "keepDimensions": "Commodity"
+  },
+  "SYS_Emissions_CH4": {
+    "aggregation": "sum",
+    "defaultUnit": "kt",
+    "keepDimensions": "Commodityset"
+  },
+  "SYS_Emissions_CO2": {
+    "aggregation": "sum",
+    "defaultUnit": "kt",
+    "keepDimensions": "Commodity"
+  },
+  "SYS_Emissions_N2O": {
+    "aggregation": "sum",
+    "defaultUnit": "kt",
+    "keepDimensions": "Commodityset"
+  },
+  "SYS_FEC-BIODST_Sector": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Processset"
+  },
+  "SYS_FEC-BIOETH_Sector": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Processset"
+  },
+  "SYS_FEC-BIOGAS_Sector": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Processset"
+  },
+  "SYS_FEC-BIOWOOx_Sector": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Processset"
+  },
+  "SYS_FEC-COA_Sector": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Processset"
+  },
+  "SYS_FEC-ELCD_Sector": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Processset"
+  },
+  "SYS_FEC-GASNAT_Sector": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Processset"
+  },
+  "SYS_FEC-H2_Sector": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Processset"
+  },
+  "SYS_FEC-HETD_Sector": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Processset"
+  },
+  "SYS_FEC-HFO_Sector": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Processset"
+  },
+  "SYS_FEC-LPG_Sector": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Processset"
+  },
+  "SYS_FEC-OILDST_Sector": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Processset"
+  },
+  "SYS_FEC-OILGSL_Sector": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Processset"
+  },
+  "SYS_FEC-OILKER_Sector": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Processset"
+  },
+  "SYS_FEC-PEAT_Sector": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Processset"
+  },
+  "SYS_FEC_Fuel": {
+    "aggregation": null,
+    "defaultUnit": null,
+    "keepDimensions": null
+  },
+  "SYS_FEC_Fuel_SEAI": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodityset"
+  },
+  "SYS_FEC_Sector": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Processset"
+  },
+  "SYS_NRG-Export": {
+    "aggregation": null,
+    "defaultUnit": null,
+    "keepDimensions": null
+  },
+  "SYS_NRG-Export_SEAI": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodityset"
+  },
+  "SYS_NRG-Export_SEAI_2": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodityset",
+    "reverseSign": true
+  },
+  "SYS_NRG-Import": {
+    "aggregation": null,
+    "defaultUnit": null,
+    "keepDimensions": null
+  },
+  "SYS_NRG-Import_SEAI": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodityset"
+  },
+  "SYS_NRG-Mining": {
+    "aggregation": null,
+    "defaultUnit": null,
+    "keepDimensions": null
+  },
+  "SYS_NRG-Mining_SEAI": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodityset"
+  },
+  "SYS_Share_Type": {
+    "aggregation": "sum",
+    "defaultUnit": "share",
+    "keepDimensions": "Userconstraint"
+  },
+  "SysCost": {
+    "defaultUnit": null,
+    "keepDimensions": null
+  },
+  "TRA_AVIDOM_FuelCons": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "TRA_AVIINT_FuelCons": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "TRA_AVIINT_NAV_EmissionsCO2": {
+    "aggregation": "sum",
+    "defaultUnit": "kt",
+    "keepDimensions": "Commodity",
+    "reverseSign": true
+  },
+  "TRA_EMI": {
+    "aggregation": "sum",
+    "defaultUnit": "kt",
+    "keepDimensions": "Commodity"
+  },
+  "TRA_Emissions-CO2": {
+    "aggregation": "sum",
+    "defaultUnit": "kt",
+    "keepDimensions": "Processset"
+  },
+  "TRA_F-HTRUCK-N_TYPE": {
+    "aggregation": "sum",
+    "defaultUnit": "kVehicles",
+    "keepDimensions": "Processset"
+  },
+  "TRA_F-HTRUCK_TYPE": {
+    "aggregation": "sum",
+    "defaultUnit": "kVehicles",
+    "keepDimensions": "Processset"
+  },
+  "TRA_F-LTRUCK-N_TYPE": {
+    "aggregation": "sum",
+    "defaultUnit": "kVehicles",
+    "keepDimensions": "Processset"
+  },
+  "TRA_F-LTRUCK_TYPE": {
+    "aggregation": "sum",
+    "defaultUnit": "kVehicles",
+    "keepDimensions": "Processset"
+  },
+  "TRA_F-MTRUCK-N_TYPE": {
+    "aggregation": "sum",
+    "defaultUnit": "kVehicles",
+    "keepDimensions": "Processset"
+  },
+  "TRA_F-MTRUCK_TYPE": {
+    "aggregation": "sum",
+    "defaultUnit": "kVehicles",
+    "keepDimensions": "Processset"
+  },
+  "TRA_FEC": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "TRA_Freight_Land_FuelCons": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "TRA_Freight_Land_Mode": {
+    "aggregation": "sum",
+    "defaultUnit": "Btkm",
+    "keepDimensions": "Processset"
+  },
+  "TRA_FuelPrice": {
+    "aggregation": "mean",
+    "defaultUnit": "MEUR/PJ",
+    "keepDimensions": "Commodity"
+  },
+  "TRA_NAV_FuelCons": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "TRA_OTH_FuelCons": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "TRA_P-CAR-N_TYPE": {
+    "aggregation": "sum",
+    "defaultUnit": "kVehicles",
+    "keepDimensions": "Processset"
+  },
+  "TRA_P-CAR_TYPE": {
+    "aggregation": "sum",
+    "defaultUnit": "kVehicles",
+    "keepDimensions": "Processset"
+  },
+  "TRA_Passenger_Land_Distance": {
+    "aggregation": "sum",
+    "defaultUnit": "Bpkm",
+    "keepDimensions": "Commodity"
+  },
+  "TRA_Passenger_Land_FuelCons": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  },
+  "TRA_Passenger_Land_Mode": {
+    "aggregation": "sum",
+    "defaultUnit": "Bpkm",
+    "keepDimensions": "Processset"
+  },
+  "TRA_Passenger_Land_Mode-L": {
+    "aggregation": "sum",
+    "defaultUnit": "Bpkm",
+    "keepDimensions": "Processset"
+  },
+  "TRA_Passenger_Land_Mode-M": {
+    "aggregation": "sum",
+    "defaultUnit": "Bpkm",
+    "keepDimensions": "Processset"
+  },
+  "TRA_Passenger_Land_Mode-S": {
+    "aggregation": "sum",
+    "defaultUnit": "Bpkm",
+    "keepDimensions": "Processset"
+  },
+  "TRA_Rest_FuelCons": {
+    "aggregation": null,
+    "defaultUnit": null,
+    "keepDimensions": null
+  },
+  "TRA_TURS_FuelCons": {
+    "aggregation": "sum",
+    "defaultUnit": "PJ",
+    "keepDimensions": "Commodity"
+  }
+}
