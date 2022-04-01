@@ -650,6 +650,34 @@
       "keepDimensions": "Commodity"
     }
   },
+  "TRA_FEC-TRABDL_Mode": {
+    "TRA_FEC-TRABDL_Mode": {
+      "aggregation": "sum",
+      "defaultUnit": "PJ",
+      "keepDimensions": "Processset"
+    }
+  },
+  "TRA_FEC-TRABJK_Mode": {
+    "TRA_FEC-TRABJK_Mode": {
+      "aggregation": "sum",
+      "defaultUnit": "PJ",
+      "keepDimensions": "Processset"
+    }
+  },
+  "TRA_FEC-TRABNG_Mode": {
+    "TRA_FEC-TRABNG_Mode": {
+      "aggregation": "sum",
+      "defaultUnit": "PJ",
+      "keepDimensions": "Processset"
+    }
+  },
+  "TRA_FEC-TRAETH_Mode": {
+    "TRA_FEC-TRAETH_Mode": {
+      "aggregation": "sum",
+      "defaultUnit": "PJ",
+      "keepDimensions": "Processset"
+    }
+  },
   "TRA_Freight_Land_FuelCons": {
     "TRA_Freight_Land_FuelCons": {
       "aggregation": "sum",
