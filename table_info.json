@@ -392,105 +392,120 @@
     }
   },
   "SYS_FEC-BIODST_Sector": {
-    "SYS_FEC-BIODST_Sector": {
+    "SYS_FEC_Sector": {
+      "filter": { "Commodity": ["BIODST1G", "BIODST2G"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
     }
   },
   "SYS_FEC-BIOETH_Sector": {
-    "SYS_FEC-BIOETH_Sector": {
+    "SYS_FEC_Sector": {
+      "filter": { "Commodity": ["BIOETH1G", "BIOETH2G"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
     }
   },
   "SYS_FEC-BIOGAS_Sector": {
-    "SYS_FEC-BIOGAS_Sector": {
+    "SYS_FEC_Sector": {
+      "filter": { "Commodity": ["BIOGAS1G", "BIOGAS2G"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
     }
   },
   "SYS_FEC-BIOWOOx_Sector": {
-    "SYS_FEC-BIOWOOx_Sector": {
+    "SYS_FEC_Sector": {
+      "filter": { "Commodity": ["BIOWOO", "BIOWOO1", "BIOWOO2", "BIOWOO3"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
     }
   },
   "SYS_FEC-COA_Sector": {
-    "SYS_FEC-COA_Sector": {
+    "SYS_FEC_Sector": {
+      "filter": { "Commodity": ["COABIT", "COAHAR", "COALIG"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
     }
   },
   "SYS_FEC-ELCD_Sector": {
-    "SYS_FEC-ELCD_Sector": {
+    "SYS_FEC_Sector": {
+      "filter": { "Commodity": ["ELCD"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
     }
   },
   "SYS_FEC-GASNAT_Sector": {
-    "SYS_FEC-GASNAT_Sector": {
+    "SYS_FEC_Sector": {
+      "filter": { "Commodity": ["GASNAT"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
     }
   },
   "SYS_FEC-H2_Sector": {
-    "SYS_FEC-H2_Sector": {
+    "SYS_FEC_Sector": {
+      "filter": { "Commodity": ["SUPH2GD", "SUPH2LD"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
     }
   },
   "SYS_FEC-HETD_Sector": {
-    "SYS_FEC-HETD_Sector": {
+    "SYS_FEC_Sector": {
+      "filter": { "Commodity": ["HETD"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
     }
   },
   "SYS_FEC-HFO_Sector": {
-    "SYS_FEC-HFO_Sector": {
+    "SYS_FEC_Sector": {
+      "filter": { "Commodity": ["OILHFO"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
     }
   },
   "SYS_FEC-LPG_Sector": {
-    "SYS_FEC-LPG_Sector": {
+    "SYS_FEC_Sector": {
+      "filter": { "Commodity": ["OILLPG"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
     }
   },
   "SYS_FEC-OILDST_Sector": {
-    "SYS_FEC-OILDST_Sector": {
+    "SYS_FEC_Sector": {
+      "filter": { "Commodity": ["OILDST"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
     }
   },
   "SYS_FEC-OILGSL_Sector": {
-    "SYS_FEC-OILGSL_Sector": {
+    "SYS_FEC_Sector": {
+      "filter": { "Commodity": ["OILGSL"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
     }
   },
   "SYS_FEC-OILKER_Sector": {
-    "SYS_FEC-OILKER_Sector": {
+    "SYS_FEC_Sector": {
+      "filter": { "Commodity": ["OILKER"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
     }
   },
   "SYS_FEC-PEAT_Sector": {
-    "SYS_FEC-PEAT_Sector": {
+    "SYS_FEC_Sector": {
+      "filter": { "Commodity": ["PEAT"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
