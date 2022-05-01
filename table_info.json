@@ -7,98 +7,112 @@
     }
   },
   "IND-CAF_FEC": {
-    "IND-CAF_FEC": {
+    "IND_FEC_Sector": {
+      "filter": { "Processset": ["DMD_IND-CAF"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
     }
   },
   "IND-CON_FEC": {
-    "IND-CON_FEC": {
+    "IND_FEC_Sector": {
+      "filter": { "Processset": ["DMD_IND-CON"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
     }
   },
   "IND-EOE_FEC": {
-    "IND-EOE_FEC": {
+    "IND_FEC_Sector": {
+      "filter": { "Processset": ["DMD_IND-EOE"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
     }
   },
   "IND-FAB_FEC": {
-    "IND-FAB_FEC": {
+    "IND_FEC_Sector": {
+      "filter": { "Processset": ["DMD_IND-FAB"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
     }
   },
   "IND-MAE_FEC": {
-    "IND-MAE_FEC": {
+    "IND_FEC_Sector": {
+      "filter": { "Processset": ["DMD_IND-MAE"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
     }
   },
   "IND-MAP_FEC": {
-    "IND-MAP_FEC": {
+    "IND_FEC_Sector": {
+      "filter": { "Processset": ["DMD_IND-MAP"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
     }
   },
   "IND-NEM_FEC": {
-    "IND-NEM_FEC": {
+    "IND_FEC_Sector": {
+      "filter": { "Processset": ["DMD_IND-NEM"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
     }
   },
   "IND-OMA_FEC": {
-    "IND-OMA_FEC": {
+    "IND_FEC_Sector": {
+      "filter": { "Processset": ["DMD_IND-OMA"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
     }
   },
   "IND-ONM_FEC": {
-    "IND-ONM_FEC": {
+    "IND_FEC_Sector": {
+      "filter": { "Processset": ["DMD_IND-ONM"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
     }
   },
   "IND-PX4_FEC": {
-    "IND-PX4_FEC": {
+    "IND_FEC_Sector": {
+      "filter": { "Processset": ["DMD_IND-PX4"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
     }
   },
   "IND-RAP_FEC": {
-    "IND-RAP_FEC": {
+    "IND_FEC_Sector": {
+      "filter": { "Processset": ["DMD_IND-RAP"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
     }
   },
   "IND-TAP_FEC": {
-    "IND-TAP_FEC": {
+    "IND_FEC_Sector": {
+      "filter": { "Processset": ["DMD_IND-TAP"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
     }
   },
   "IND-TEM_FEC": {
-    "IND-TEM_FEC": {
+    "IND_FEC_Sector": {
+      "filter": { "Processset": ["DMD_IND-TEM"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
     }
   },
   "IND-WAP_FEC": {
-    "IND-WAP_FEC": {
+    "IND_FEC_Sector": {
+      "filter": { "Processset": ["DMD_IND-WAP"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
@@ -175,7 +189,20 @@
     }
   },
   "RSD_OtherServices_FuelCons": {
-    "RSD_OtherServices_FuelCons": {
+    "RSD_Services_EnergyCons": {
+      "filter": {
+        "Processset": [
+          "RSD_BLD-XXX_NRGSRV-CD",
+          "RSD_BLD-XXX_NRGSRV-CK",
+          "RSD_BLD-XXX_NRGSRV-CW",
+          "RSD_BLD-XXX_NRGSRV-DW",
+          "RSD_BLD-XXX_NRGSRV-LT",
+          "RSD_BLD-XXX_NRGSRV-OA",
+          "RSD_BLD-XXX_NRGSRV-OE",
+          "RSD_BLD-XXX_NRGSRV-PF",
+          "RSD_BLD-XXX_NRGSRV-RF"
+        ]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
@@ -266,14 +293,16 @@
     }
   },
   "RSD_WaterSpace_FuelCons": {
-    "RSD_WaterSpace_FuelCons": {
+    "RSD_Services_EnergyCons": {
+      "filter": { "Processset": ["RSD_BLD-XXX_NRGSRV-WS"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
     }
   },
   "SRV-COM_FEC_WS": {
-    "SRV-COM_FEC_WS": {
+    "SRV_FEC_Service": {
+      "filter": { "Processset": ["SRV-CS_NRGSRV-WS"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
@@ -294,7 +323,8 @@
     }
   },
   "SRV-PUB_FEC_WS": {
-    "SRV-PUB_FEC_WS": {
+    "SRV_FEC_Service": {
+      "filter": { "Processset": ["SRV-PU_NRGSRV-WS"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
@@ -307,8 +337,17 @@
       "keepDimensions": "Commodity"
     }
   },
+  "SRV_FEC_COK": {
+    "SRV_FEC_Service": {
+      "filter": { "Processset": ["SRV-CS_NRGSRV-CK", "SRV-PU_NRGSRV-CK"] },
+      "aggregation": "sum",
+      "defaultUnit": "PJ",
+      "keepDimensions": "Commodity"
+    }
+  },
   "SRV_FEC_DCs": {
-    "SRV_FEC_DCs": {
+    "SRV_FEC_Service": {
+      "filter": { "Processset": ["DMD_SRV-CS_DC"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
@@ -384,7 +423,8 @@
       "defaultUnit": "kt",
       "keepDimensions": "Commodity"
     },
-    "TRA_AVIINT_NAV_EmissionsCO2": {
+    "TRA_Emissions-CO2": {
+      "filter": { "Processset": ["DMD_TRA-R-AVIINT", "DMD_TRA-R-NAV"] },
       "aggregation": "sum",
       "defaultUnit": "kt",
       "keepDimensions": "Commodity",
@@ -392,7 +432,7 @@
     }
   },
   "SYS_FEC-BIODST_Sector": {
-    "SYS_FEC_Sector": {
+    "SYS_FEC_Fuel": {
       "filter": { "Commodity": ["BIODST1G", "BIODST2G"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
@@ -400,7 +440,7 @@
     }
   },
   "SYS_FEC-BIOETH_Sector": {
-    "SYS_FEC_Sector": {
+    "SYS_FEC_Fuel": {
       "filter": { "Commodity": ["BIOETH1G", "BIOETH2G"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
@@ -408,7 +448,7 @@
     }
   },
   "SYS_FEC-BIOGAS_Sector": {
-    "SYS_FEC_Sector": {
+    "SYS_FEC_Fuel": {
       "filter": { "Commodity": ["BIOGAS1G", "BIOGAS2G"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
@@ -416,7 +456,7 @@
     }
   },
   "SYS_FEC-BIOWOOx_Sector": {
-    "SYS_FEC_Sector": {
+    "SYS_FEC_Fuel": {
       "filter": { "Commodity": ["BIOWOO", "BIOWOO1", "BIOWOO2", "BIOWOO3"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
@@ -424,7 +464,7 @@
     }
   },
   "SYS_FEC-COA_Sector": {
-    "SYS_FEC_Sector": {
+    "SYS_FEC_Fuel": {
       "filter": { "Commodity": ["COABIT", "COAHAR", "COALIG"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
@@ -432,7 +472,7 @@
     }
   },
   "SYS_FEC-ELCD_Sector": {
-    "SYS_FEC_Sector": {
+    "SYS_FEC_Fuel": {
       "filter": { "Commodity": ["ELCD"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
@@ -440,7 +480,7 @@
     }
   },
   "SYS_FEC-GASNAT_Sector": {
-    "SYS_FEC_Sector": {
+    "SYS_FEC_Fuel": {
       "filter": { "Commodity": ["GASNAT"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
@@ -448,7 +488,7 @@
     }
   },
   "SYS_FEC-H2_Sector": {
-    "SYS_FEC_Sector": {
+    "SYS_FEC_Fuel": {
       "filter": { "Commodity": ["SUPH2GD", "SUPH2LD"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
@@ -456,7 +496,7 @@
     }
   },
   "SYS_FEC-HETD_Sector": {
-    "SYS_FEC_Sector": {
+    "SYS_FEC_Fuel": {
       "filter": { "Commodity": ["HETD"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
@@ -464,7 +504,7 @@
     }
   },
   "SYS_FEC-HFO_Sector": {
-    "SYS_FEC_Sector": {
+    "SYS_FEC_Fuel": {
       "filter": { "Commodity": ["OILHFO"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
@@ -472,7 +512,7 @@
     }
   },
   "SYS_FEC-LPG_Sector": {
-    "SYS_FEC_Sector": {
+    "SYS_FEC_Fuel": {
       "filter": { "Commodity": ["OILLPG"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
@@ -480,7 +520,7 @@
     }
   },
   "SYS_FEC-OILDST_Sector": {
-    "SYS_FEC_Sector": {
+    "SYS_FEC_Fuel": {
       "filter": { "Commodity": ["OILDST"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
@@ -488,7 +528,7 @@
     }
   },
   "SYS_FEC-OILGSL_Sector": {
-    "SYS_FEC_Sector": {
+    "SYS_FEC_Fuel": {
       "filter": { "Commodity": ["OILGSL"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
@@ -496,7 +536,7 @@
     }
   },
   "SYS_FEC-OILKER_Sector": {
-    "SYS_FEC_Sector": {
+    "SYS_FEC_Fuel": {
       "filter": { "Commodity": ["OILKER"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
@@ -504,7 +544,7 @@
     }
   },
   "SYS_FEC-PEAT_Sector": {
-    "SYS_FEC_Sector": {
+    "SYS_FEC_Fuel": {
       "filter": { "Commodity": ["PEAT"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
@@ -512,13 +552,6 @@
     }
   },
   "SYS_FEC_Fuel": {
-    "SYS_FEC_Fuel_SEAI": {
-      "aggregation": "sum",
-      "defaultUnit": "PJ",
-      "keepDimensions": "Commodityset"
-    }
-  },
-  "SYS_FEC_Fuel_2": {
     "SYS_FEC_Fuel_SEAI": {
       "aggregation": "sum",
       "defaultUnit": "PJ",
@@ -581,7 +614,7 @@
       "defaultUnit": "PJ",
       "keepDimensions": "Commodityset"
     },
-    "SYS_NRG-Export_SEAI_2": {
+    "SYS_NRG-Export_SEAI": {
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodityset",
@@ -596,14 +629,16 @@
     }
   },
   "TRA_AVIDOM_FuelCons": {
-    "TRA_AVIDOM_FuelCons": {
+    "TRA_FEC_Mode": {
+      "filter": { "Processset": ["DMD_TRA-R-AVIDOM"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
     }
   },
   "TRA_AVIINT_FuelCons": {
-    "TRA_AVIINT_FuelCons": {
+    "TRA_FEC_Mode": {
+      "filter": { "Processset": ["DMD_TRA-R-AVIINT"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
@@ -665,36 +700,41 @@
       "keepDimensions": "Commodity"
     }
   },
-  "TRA_FEC-TRABDL_Mode": {
-    "TRA_FEC-TRABDL_Mode": {
+  "TRA_FEC-TRABDL_Mode_Detailed": {
+    "TRA_FEC_Mode_Detailed": {
+      "filter": { "Commodity": ["TRABDL"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
     }
   },
-  "TRA_FEC-TRABJK_Mode": {
-    "TRA_FEC-TRABJK_Mode": {
+  "TRA_FEC-TRABJK_Mode_Detailed": {
+    "TRA_FEC_Mode_Detailed": {
+      "filter": { "Commodity": ["TRABJK"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
     }
   },
-  "TRA_FEC-TRABNG_Mode": {
-    "TRA_FEC-TRABNG_Mode": {
+  "TRA_FEC-TRABNG_Mode_Detailed": {
+    "TRA_FEC_Mode_Detailed": {
+      "filter": { "Commodity": ["TRABNG"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
     }
   },
-  "TRA_FEC-TRAETH_Mode": {
-    "TRA_FEC-TRAETH_Mode": {
+  "TRA_FEC-TRAETH_Mode_Detailed": {
+    "TRA_FEC_Mode_Detailed": {
+      "filter": { "Commodity": ["TRAETH"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
     }
   },
   "TRA_Freight_Land_FuelCons": {
-    "TRA_Freight_Land_FuelCons": {
+    "TRA_FEC_Mode": {
+      "filter": { "Processset": ["DMD_TRA-F-LAND"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
@@ -708,14 +748,16 @@
     }
   },
   "TRA_NAV_FuelCons": {
-    "TRA_NAV_FuelCons": {
+    "TRA_FEC_Mode": {
+      "filter": { "Processset": ["DMD_TRA-R-NAV"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
     }
   },
   "TRA_OTH_FuelCons": {
-    "TRA_OTH_FuelCons": {
+    "TRA_FEC_Mode": {
+      "filter": { "Processset": ["DMD_TRA-R-OTH"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
@@ -743,7 +785,8 @@
     }
   },
   "TRA_Passenger_Land_FuelCons": {
-    "TRA_Passenger_Land_FuelCons": {
+    "TRA_FEC_Mode": {
+      "filter": { "Processset": ["DMD_TRA-P-LAND"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
@@ -757,28 +800,32 @@
     }
   },
   "TRA_Passenger_Land_Mode-L": {
-    "TRA_Passenger_Land_Mode-L": {
+    "TRA_Passenger_Land_Mode": {
+      "filter": { "Commodity": ["TRAPL"] },
       "aggregation": "sum",
       "defaultUnit": "Bpkm",
       "keepDimensions": "Processset"
     }
   },
   "TRA_Passenger_Land_Mode-M": {
-    "TRA_Passenger_Land_Mode-M": {
+    "TRA_Passenger_Land_Mode": {
+      "filter": { "Commodity": ["TRAPM"] },
       "aggregation": "sum",
       "defaultUnit": "Bpkm",
       "keepDimensions": "Processset"
     }
   },
   "TRA_Passenger_Land_Mode-S": {
-    "TRA_Passenger_Land_Mode-S": {
+    "TRA_Passenger_Land_Mode": {
+      "filter": { "Commodity": ["TRAPS"] },
       "aggregation": "sum",
       "defaultUnit": "Bpkm",
       "keepDimensions": "Processset"
     }
   },
   "TRA_TURS_FuelCons": {
-    "TRA_TURS_FuelCons": {
+    "TRA_FEC_Mode": {
+      "filter": { "Processset": ["DMD_TRA-R-TURS"] },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
