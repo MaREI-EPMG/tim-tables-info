@@ -1,4 +1,15 @@
 {
+  "AGR_CO2N_Price": {
+    "SYS_CO2Price": {
+      "filter": {
+        "Commodity": ["AGRCO2N"]
+      },
+      "aggregation": "mean",
+      "defaultUnit": "MEUR/kt",
+      "keepDimensions": "Commodityset",
+      "reverseSign": true
+    }
+  },
   "AGR_FEC": {
     "AGR_FEC": {
       "aggregation": "sum",
@@ -8,7 +19,9 @@
   },
   "IND-CAF_FEC": {
     "IND_FEC_Sector": {
-      "filter": { "Processset": ["DMD_IND-CAF"] },
+      "filter": {
+        "Processset": ["DMD_IND-CAF"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
@@ -16,7 +29,9 @@
   },
   "IND-CON_FEC": {
     "IND_FEC_Sector": {
-      "filter": { "Processset": ["DMD_IND-CON"] },
+      "filter": {
+        "Processset": ["DMD_IND-CON"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
@@ -24,7 +39,9 @@
   },
   "IND-EOE_FEC": {
     "IND_FEC_Sector": {
-      "filter": { "Processset": ["DMD_IND-EOE"] },
+      "filter": {
+        "Processset": ["DMD_IND-EOE"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
@@ -32,7 +49,9 @@
   },
   "IND-FAB_FEC": {
     "IND_FEC_Sector": {
-      "filter": { "Processset": ["DMD_IND-FAB"] },
+      "filter": {
+        "Processset": ["DMD_IND-FAB"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
@@ -40,7 +59,9 @@
   },
   "IND-MAE_FEC": {
     "IND_FEC_Sector": {
-      "filter": { "Processset": ["DMD_IND-MAE"] },
+      "filter": {
+        "Processset": ["DMD_IND-MAE"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
@@ -48,7 +69,9 @@
   },
   "IND-MAP_FEC": {
     "IND_FEC_Sector": {
-      "filter": { "Processset": ["DMD_IND-MAP"] },
+      "filter": {
+        "Processset": ["DMD_IND-MAP"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
@@ -56,7 +79,9 @@
   },
   "IND-NEM_FEC": {
     "IND_FEC_Sector": {
-      "filter": { "Processset": ["DMD_IND-NEM"] },
+      "filter": {
+        "Processset": ["DMD_IND-NEM"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
@@ -64,7 +89,9 @@
   },
   "IND-OMA_FEC": {
     "IND_FEC_Sector": {
-      "filter": { "Processset": ["DMD_IND-OMA"] },
+      "filter": {
+        "Processset": ["DMD_IND-OMA"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
@@ -72,7 +99,9 @@
   },
   "IND-ONM_FEC": {
     "IND_FEC_Sector": {
-      "filter": { "Processset": ["DMD_IND-ONM"] },
+      "filter": {
+        "Processset": ["DMD_IND-ONM"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
@@ -80,7 +109,9 @@
   },
   "IND-PX4_FEC": {
     "IND_FEC_Sector": {
-      "filter": { "Processset": ["DMD_IND-PX4"] },
+      "filter": {
+        "Processset": ["DMD_IND-PX4"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
@@ -88,7 +119,9 @@
   },
   "IND-RAP_FEC": {
     "IND_FEC_Sector": {
-      "filter": { "Processset": ["DMD_IND-RAP"] },
+      "filter": {
+        "Processset": ["DMD_IND-RAP"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
@@ -96,7 +129,9 @@
   },
   "IND-TAP_FEC": {
     "IND_FEC_Sector": {
-      "filter": { "Processset": ["DMD_IND-TAP"] },
+      "filter": {
+        "Processset": ["DMD_IND-TAP"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
@@ -104,7 +139,9 @@
   },
   "IND-TEM_FEC": {
     "IND_FEC_Sector": {
-      "filter": { "Processset": ["DMD_IND-TEM"] },
+      "filter": {
+        "Processset": ["DMD_IND-TEM"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
@@ -112,10 +149,34 @@
   },
   "IND-WAP_FEC": {
     "IND_FEC_Sector": {
-      "filter": { "Processset": ["DMD_IND-WAP"] },
+      "filter": {
+        "Processset": ["DMD_IND-WAP"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
+    }
+  },
+  "IND_CO2N_Price": {
+    "SYS_CO2Price": {
+      "filter": {
+        "Commodity": ["INDCO2N"]
+      },
+      "aggregation": "mean",
+      "defaultUnit": "MEUR/kt",
+      "keepDimensions": "Commodityset",
+      "reverseSign": true
+    }
+  },
+  "IND_CO2P_Price": {
+    "SYS_CO2Price": {
+      "filter": {
+        "Commodity": ["INDCO2P"]
+      },
+      "aggregation": "mean",
+      "defaultUnit": "MEUR/kt",
+      "keepDimensions": "Commodityset",
+      "reverseSign": true
     }
   },
   "IND_Emissions-CO2": {
@@ -130,6 +191,17 @@
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
+    }
+  },
+  "PWR_CO2N_Price": {
+    "SYS_CO2Price": {
+      "filter": {
+        "Commodity": ["PWRCO2N"]
+      },
+      "aggregation": "mean",
+      "defaultUnit": "MEUR/kt",
+      "keepDimensions": "Commodityset",
+      "reverseSign": true
     }
   },
   "PWR_Cap": {
@@ -179,6 +251,17 @@
       "aggregation": "sum",
       "defaultUnit": "kUnits",
       "keepDimensions": "Processset"
+    }
+  },
+  "RSD_CO2_Price": {
+    "SYS_CO2Price": {
+      "filter": {
+        "Commodity": ["RSDCO2"]
+      },
+      "aggregation": "mean",
+      "defaultUnit": "MEUR/kt",
+      "keepDimensions": "Commodityset",
+      "reverseSign": true
     }
   },
   "RSD_FEC": {
@@ -294,7 +377,9 @@
   },
   "RSD_WaterSpace_FuelCons": {
     "RSD_Services_EnergyCons": {
-      "filter": { "Processset": ["RSD_BLD-XXX_NRGSRV-WS"] },
+      "filter": {
+        "Processset": ["RSD_BLD-XXX_NRGSRV-WS"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
@@ -302,7 +387,9 @@
   },
   "SRV-COM_FEC_WS": {
     "SRV_FEC_Service": {
-      "filter": { "Processset": ["SRV-CS_NRGSRV-WS"] },
+      "filter": {
+        "Processset": ["SRV-CS_NRGSRV-WS"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
@@ -324,10 +411,23 @@
   },
   "SRV-PUB_FEC_WS": {
     "SRV_FEC_Service": {
-      "filter": { "Processset": ["SRV-PU_NRGSRV-WS"] },
+      "filter": {
+        "Processset": ["SRV-PU_NRGSRV-WS"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
+    }
+  },
+  "SRV_CO2N_Price": {
+    "SYS_CO2Price": {
+      "filter": {
+        "Commodity": ["SRVCO2N"]
+      },
+      "aggregation": "mean",
+      "defaultUnit": "MEUR/kt",
+      "keepDimensions": "Commodityset",
+      "reverseSign": true
     }
   },
   "SRV_FEC": {
@@ -339,7 +439,9 @@
   },
   "SRV_FEC_COK": {
     "SRV_FEC_Service": {
-      "filter": { "Processset": ["SRV-CS_NRGSRV-CK", "SRV-PU_NRGSRV-CK"] },
+      "filter": {
+        "Processset": ["SRV-CS_NRGSRV-CK", "SRV-PU_NRGSRV-CK"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
@@ -347,7 +449,9 @@
   },
   "SRV_FEC_DCs": {
     "SRV_FEC_Service": {
-      "filter": { "Processset": ["DMD_SRV-CS_DC"] },
+      "filter": {
+        "Processset": ["DMD_SRV-CS_DC"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
@@ -403,6 +507,14 @@
       "keepDimensions": "Processset"
     }
   },
+  "SYS_Cost_Sector_Cumulative": {
+    "SYS_Cost_Sector": {
+      "aggregation": "sum",
+      "defaultUnit": "MEUR",
+      "keepDimensions": "Processset",
+      "cumulate": true
+    }
+  },
   "SYS_Cost_Type": {
     "SYS_Cost_Type": {
       "aggregation": "sum",
@@ -424,16 +536,38 @@
       "keepDimensions": "Commodity"
     },
     "TRA_Emissions-CO2": {
-      "filter": { "Processset": ["DMD_TRA-R-AVIINT", "DMD_TRA-R-NAV"] },
+      "filter": {
+        "Processset": ["DMD_TRA-R-AVIINT", "DMD_TRA-R-NAV"]
+      },
       "aggregation": "sum",
       "defaultUnit": "kt",
       "keepDimensions": "Commodity",
       "reverseSign": true
     }
   },
+  "SYS_Emissions_CO2_Domestic_Cumulative": {
+    "SYS_Emissions_CO2": {
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+      "keepDimensions": "Commodity",
+      "cumulate": true
+    },
+    "TRA_Emissions-CO2": {
+      "filter": {
+        "Processset": ["DMD_TRA-R-AVIINT", "DMD_TRA-R-NAV"]
+      },
+      "aggregation": "sum",
+      "defaultUnit": "kt",
+      "keepDimensions": "Commodity",
+      "reverseSign": true,
+      "cumulate": true
+    }
+  },
   "SYS_FEC-BIODST_Sector": {
     "SYS_FEC_Fuel": {
-      "filter": { "Commodity": ["BIODST1G", "BIODST2G"] },
+      "filter": {
+        "Commodity": ["BIODST1G", "BIODST2G"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
@@ -441,7 +575,9 @@
   },
   "SYS_FEC-BIOETH_Sector": {
     "SYS_FEC_Fuel": {
-      "filter": { "Commodity": ["BIOETH1G", "BIOETH2G"] },
+      "filter": {
+        "Commodity": ["BIOETH1G", "BIOETH2G"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
@@ -449,7 +585,9 @@
   },
   "SYS_FEC-BIOGAS_Sector": {
     "SYS_FEC_Fuel": {
-      "filter": { "Commodity": ["BIOGAS1G", "BIOGAS2G"] },
+      "filter": {
+        "Commodity": ["BIOGAS1G", "BIOGAS2G"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
@@ -457,7 +595,9 @@
   },
   "SYS_FEC-BIOWOOx_Sector": {
     "SYS_FEC_Fuel": {
-      "filter": { "Commodity": ["BIOWOO", "BIOWOO1", "BIOWOO2", "BIOWOO3"] },
+      "filter": {
+        "Commodity": ["BIOWOO", "BIOWOO1", "BIOWOO2", "BIOWOO3"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
@@ -465,7 +605,9 @@
   },
   "SYS_FEC-COA_Sector": {
     "SYS_FEC_Fuel": {
-      "filter": { "Commodity": ["COABIT", "COAHAR", "COALIG"] },
+      "filter": {
+        "Commodity": ["COABIT", "COAHAR", "COALIG"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
@@ -473,7 +615,9 @@
   },
   "SYS_FEC-ELCD_Sector": {
     "SYS_FEC_Fuel": {
-      "filter": { "Commodity": ["ELCD"] },
+      "filter": {
+        "Commodity": ["ELCD"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
@@ -481,7 +625,9 @@
   },
   "SYS_FEC-GASNAT_Sector": {
     "SYS_FEC_Fuel": {
-      "filter": { "Commodity": ["GASNAT"] },
+      "filter": {
+        "Commodity": ["GASNAT"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
@@ -489,7 +635,9 @@
   },
   "SYS_FEC-H2_Sector": {
     "SYS_FEC_Fuel": {
-      "filter": { "Commodity": ["SUPH2GD", "SUPH2LD"] },
+      "filter": {
+        "Commodity": ["SUPH2GD", "SUPH2LD"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
@@ -497,7 +645,9 @@
   },
   "SYS_FEC-HETD_Sector": {
     "SYS_FEC_Fuel": {
-      "filter": { "Commodity": ["HETD"] },
+      "filter": {
+        "Commodity": ["HETD"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
@@ -505,7 +655,9 @@
   },
   "SYS_FEC-HFO_Sector": {
     "SYS_FEC_Fuel": {
-      "filter": { "Commodity": ["OILHFO"] },
+      "filter": {
+        "Commodity": ["OILHFO"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
@@ -513,7 +665,9 @@
   },
   "SYS_FEC-LPG_Sector": {
     "SYS_FEC_Fuel": {
-      "filter": { "Commodity": ["OILLPG"] },
+      "filter": {
+        "Commodity": ["OILLPG"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
@@ -521,7 +675,9 @@
   },
   "SYS_FEC-OILDST_Sector": {
     "SYS_FEC_Fuel": {
-      "filter": { "Commodity": ["OILDST"] },
+      "filter": {
+        "Commodity": ["OILDST"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
@@ -529,7 +685,9 @@
   },
   "SYS_FEC-OILGSL_Sector": {
     "SYS_FEC_Fuel": {
-      "filter": { "Commodity": ["OILGSL"] },
+      "filter": {
+        "Commodity": ["OILGSL"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
@@ -537,7 +695,9 @@
   },
   "SYS_FEC-OILKER_Sector": {
     "SYS_FEC_Fuel": {
-      "filter": { "Commodity": ["OILKER"] },
+      "filter": {
+        "Commodity": ["OILKER"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
@@ -545,7 +705,9 @@
   },
   "SYS_FEC-PEAT_Sector": {
     "SYS_FEC_Fuel": {
-      "filter": { "Commodity": ["PEAT"] },
+      "filter": {
+        "Commodity": ["PEAT"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
@@ -570,6 +732,14 @@
       "aggregation": "sum",
       "defaultUnit": "MEUR",
       "keepDimensions": "Processset"
+    }
+  },
+  "SYS_LumpInv_Sector_Cumulative": {
+    "SYS_LumpInv_Sector": {
+      "aggregation": "sum",
+      "defaultUnit": "MEUR",
+      "keepDimensions": "Processset",
+      "cumulate": true
     }
   },
   "SYS_NRG-Export": {
@@ -630,7 +800,9 @@
   },
   "TRA_AVIDOM_FuelCons": {
     "TRA_FEC_Mode": {
-      "filter": { "Processset": ["DMD_TRA-R-AVIDOM"] },
+      "filter": {
+        "Processset": ["DMD_TRA-R-AVIDOM"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
@@ -638,10 +810,23 @@
   },
   "TRA_AVIINT_FuelCons": {
     "TRA_FEC_Mode": {
-      "filter": { "Processset": ["DMD_TRA-R-AVIINT"] },
+      "filter": {
+        "Processset": ["DMD_TRA-R-AVIINT"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
+    }
+  },
+  "TRA_CO2N_Price": {
+    "SYS_CO2Price": {
+      "filter": {
+        "Commodity": ["TRACO2N"]
+      },
+      "aggregation": "mean",
+      "defaultUnit": "MEUR/kt",
+      "keepDimensions": "Commodityset",
+      "reverseSign": true
     }
   },
   "TRA_Emissions-CO2": {
@@ -702,7 +887,9 @@
   },
   "TRA_FEC-TRABDL_Mode_Detailed": {
     "TRA_FEC_Mode_Detailed": {
-      "filter": { "Commodity": ["TRABDL"] },
+      "filter": {
+        "Commodity": ["TRABDL"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
@@ -710,7 +897,9 @@
   },
   "TRA_FEC-TRABJK_Mode_Detailed": {
     "TRA_FEC_Mode_Detailed": {
-      "filter": { "Commodity": ["TRABJK"] },
+      "filter": {
+        "Commodity": ["TRABJK"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
@@ -718,7 +907,9 @@
   },
   "TRA_FEC-TRABNG_Mode_Detailed": {
     "TRA_FEC_Mode_Detailed": {
-      "filter": { "Commodity": ["TRABNG"] },
+      "filter": {
+        "Commodity": ["TRABNG"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
@@ -726,7 +917,9 @@
   },
   "TRA_FEC-TRAETH_Mode_Detailed": {
     "TRA_FEC_Mode_Detailed": {
-      "filter": { "Commodity": ["TRAETH"] },
+      "filter": {
+        "Commodity": ["TRAETH"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Processset"
@@ -734,7 +927,9 @@
   },
   "TRA_Freight_Land_FuelCons": {
     "TRA_FEC_Mode": {
-      "filter": { "Processset": ["DMD_TRA-F-LAND"] },
+      "filter": {
+        "Processset": ["DMD_TRA-F-LAND"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
@@ -749,7 +944,9 @@
   },
   "TRA_NAV_FuelCons": {
     "TRA_FEC_Mode": {
-      "filter": { "Processset": ["DMD_TRA-R-NAV"] },
+      "filter": {
+        "Processset": ["DMD_TRA-R-NAV"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
@@ -757,7 +954,9 @@
   },
   "TRA_OTH_FuelCons": {
     "TRA_FEC_Mode": {
-      "filter": { "Processset": ["DMD_TRA-R-OTH"] },
+      "filter": {
+        "Processset": ["DMD_TRA-R-OTH"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
@@ -786,7 +985,9 @@
   },
   "TRA_Passenger_Land_FuelCons": {
     "TRA_FEC_Mode": {
-      "filter": { "Processset": ["DMD_TRA-P-LAND"] },
+      "filter": {
+        "Processset": ["DMD_TRA-P-LAND"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
@@ -801,7 +1002,9 @@
   },
   "TRA_Passenger_Land_Mode-L": {
     "TRA_Passenger_Land_Mode": {
-      "filter": { "Commodity": ["TRAPL"] },
+      "filter": {
+        "Commodity": ["TRAPL"]
+      },
       "aggregation": "sum",
       "defaultUnit": "Bpkm",
       "keepDimensions": "Processset"
@@ -809,7 +1012,9 @@
   },
   "TRA_Passenger_Land_Mode-M": {
     "TRA_Passenger_Land_Mode": {
-      "filter": { "Commodity": ["TRAPM"] },
+      "filter": {
+        "Commodity": ["TRAPM"]
+      },
       "aggregation": "sum",
       "defaultUnit": "Bpkm",
       "keepDimensions": "Processset"
@@ -817,7 +1022,9 @@
   },
   "TRA_Passenger_Land_Mode-S": {
     "TRA_Passenger_Land_Mode": {
-      "filter": { "Commodity": ["TRAPS"] },
+      "filter": {
+        "Commodity": ["TRAPS"]
+      },
       "aggregation": "sum",
       "defaultUnit": "Bpkm",
       "keepDimensions": "Processset"
@@ -825,7 +1032,9 @@
   },
   "TRA_TURS_FuelCons": {
     "TRA_FEC_Mode": {
-      "filter": { "Processset": ["DMD_TRA-R-TURS"] },
+      "filter": {
+        "Processset": ["DMD_TRA-R-TURS"]
+      },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
