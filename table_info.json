@@ -17,6 +17,13 @@
       "keepDimensions": "Commodity"
     }
   },
+  "AGR_FEC-copy": {
+    "AGR_FEC": {
+      "aggregation": "sum",
+      "defaultUnit": "PJ",
+      "keepDimensions": "Commodity"
+    }
+  },
   "IND-CAF_FEC": {
     "IND_FEC_Sector": {
       "filter": {
