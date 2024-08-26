@@ -18,7 +18,7 @@
     }
   },
   "IND-CEM_FEC": {
-    "IND_FECC_Sector": {
+    "IND_FEC_Sector": {
       "filter": {
         "Processset": ["TECHS_IND-CEM"]
       },
