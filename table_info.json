@@ -17,50 +17,40 @@
       "keepDimensions": "Commodity"
     }
   },
+  "IND-CEM_FEC": {
+    "IND_FEC_Sector": {
+      "filter": {
+        "Processset": ["TECHS_IND-CEM"]
+      },
+      "aggregation": "sum",
+      "defaultUnit": "PJ",
+      "keepDimensions": "Commodity"
+    }
+  },
   "IND-CAF_FEC": {
     "IND_FEC_Sector": {
       "filter": {
-        "Processset": ["DMD_IND-CAF"]
+        "Processset": ["TECHS_IND-CAF"]
       },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
     }
   },
-  "IND-CON_FEC": {
+  "IND-FAP_FEC": {
     "IND_FEC_Sector": {
       "filter": {
-        "Processset": ["DMD_IND-CON"]
+        "Processset": ["TECHS_IND-FAP"]
       },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
     }
   },
-  "IND-EOE_FEC": {
+  "IND-LIM_FEC": {
     "IND_FEC_Sector": {
       "filter": {
-        "Processset": ["DMD_IND-EOE"]
-      },
-      "aggregation": "sum",
-      "defaultUnit": "PJ",
-      "keepDimensions": "Commodity"
-    }
-  },
-  "IND-FAB_FEC": {
-    "IND_FEC_Sector": {
-      "filter": {
-        "Processset": ["DMD_IND-FAB"]
-      },
-      "aggregation": "sum",
-      "defaultUnit": "PJ",
-      "keepDimensions": "Commodity"
-    }
-  },
-  "IND-MAE_FEC": {
-    "IND_FEC_Sector": {
-      "filter": {
-        "Processset": ["DMD_IND-MAE"]
+        "Processset": ["TECHS_IND-LIM"]
       },
       "aggregation": "sum",
       "defaultUnit": "PJ",
@@ -70,17 +60,7 @@
   "IND-MAP_FEC": {
     "IND_FEC_Sector": {
       "filter": {
-        "Processset": ["DMD_IND-MAP"]
-      },
-      "aggregation": "sum",
-      "defaultUnit": "PJ",
-      "keepDimensions": "Commodity"
-    }
-  },
-  "IND-NEM_FEC": {
-    "IND_FEC_Sector": {
-      "filter": {
-        "Processset": ["DMD_IND-NEM"]
+        "Processset": ["TECHS_IND-MAP"]
       },
       "aggregation": "sum",
       "defaultUnit": "PJ",
@@ -90,7 +70,7 @@
   "IND-OMA_FEC": {
     "IND_FEC_Sector": {
       "filter": {
-        "Processset": ["DMD_IND-OMA"]
+        "Processset": ["TECHS_IND-OMA"]
       },
       "aggregation": "sum",
       "defaultUnit": "PJ",
@@ -100,17 +80,37 @@
   "IND-ONM_FEC": {
     "IND_FEC_Sector": {
       "filter": {
-        "Processset": ["DMD_IND-ONM"]
+        "Processset": ["TECHS_IND-ONM"]
       },
       "aggregation": "sum",
       "defaultUnit": "PJ",
       "keepDimensions": "Commodity"
     }
   },
-  "IND-PX4_FEC": {
+  "IND-WAP_FEC": {
     "IND_FEC_Sector": {
       "filter": {
-        "Processset": ["DMD_IND-PX4"]
+        "Processset": ["TECHS_IND-WAP"]
+      },
+      "aggregation": "sum",
+      "defaultUnit": "PJ",
+      "keepDimensions": "Commodity"
+    }
+  },
+  "IND-ELC_FEC": {
+    "IND_FEC_Sector": {
+      "filter": {
+        "Processset": ["DMD_IND-ELC"]
+      },
+      "aggregation": "sum",
+      "defaultUnit": "PJ",
+      "keepDimensions": "Commodity"
+    }
+  },
+  "IND-OIL_FEC": {
+    "IND_FEC_Sector": {
+      "filter": {
+        "Processset": ["DMD_IND-OIL"]
       },
       "aggregation": "sum",
       "defaultUnit": "PJ",
@@ -141,16 +141,6 @@
     "IND_FEC_Sector": {
       "filter": {
         "Processset": ["DMD_IND-TEM"]
-      },
-      "aggregation": "sum",
-      "defaultUnit": "PJ",
-      "keepDimensions": "Commodity"
-    }
-  },
-  "IND-WAP_FEC": {
-    "IND_FEC_Sector": {
-      "filter": {
-        "Processset": ["DMD_IND-WAP"]
       },
       "aggregation": "sum",
       "defaultUnit": "PJ",
